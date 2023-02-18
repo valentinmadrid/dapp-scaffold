@@ -1,21 +1,21 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { BasicsView } from "../views";
+import { CreateNewView } from "views/createnew";
+import { HomeView } from "../views";
 
-const Basics: NextPage = (props) => {
+const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
         <title>Solana Scaffold</title>
         <meta
           name="description"
-          content="Basic Functionality"
+          content="Solana Scaffold"
         />
       </Head>
-      <h1>BASICS</h1>
-      <BasicsView />
+      <CreateNewView />
     </div>
   );
 };
 
-export default Basics;
+export default Home;

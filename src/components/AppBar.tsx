@@ -60,8 +60,13 @@ export const AppBar: React.FC = () => {
             navigationStarts={() => setIsNavOpen(false)}
           />
           <NavElement
-            label="Basics"
-            href="/basics"
+            label="Create Loan"
+            href="/createnew"
+            navigationStarts={() => setIsNavOpen(false)}
+          />
+                    <NavElement
+            label="Open Loans"
+            href="/openloans"
             navigationStarts={() => setIsNavOpen(false)}
           />
           <WalletMultiButtonDynamic className="btn-ghost btn-sm rounded-btn text-lg mr-6 " />
